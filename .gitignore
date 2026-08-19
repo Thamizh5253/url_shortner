@@ -1,0 +1,13 @@
+## .NET build output
+bin/
+obj/
+
+## Environment secrets
+.env
+
+## IDE
+.vs/
+.idea/
+*.user
+
+UrlShortner/.env
