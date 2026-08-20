@@ -65,5 +65,5 @@ static string GetConnectionString()
         ?? throw new InvalidOperationException($"Missing environment variable {name}");
 
     return $"Host={Env("DB_HOST")};Port={Env("DB_PORT")};Database={Env("DB_NAME")};" +
-           $"Username={Env("DB_USER")};Password={Env("DB_PASSWORD")};SSL Mode=Disable";
+           $"Username={Env("DB_USER")};Password={Env("DB_PASSWORD")};SSL Mode=Require";
 }
